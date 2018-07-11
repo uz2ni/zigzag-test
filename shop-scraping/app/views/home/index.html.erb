@@ -1,0 +1,8 @@
+<% @all.each do |shop| %>
+  <% shop.each do |name, content| %>
+    <h1><%= name %><br /></h1>
+    <% content.each do |c| %>
+      <%= c %><br />
+    <% end %>
+  <% end %>
+<% end %>
